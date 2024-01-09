@@ -449,3 +449,38 @@ SITE_ID = 1 # 사이트 아이디
             - import requests 추가
             - from bs4 import BeautifulSoup 추가
         - 
+
+#### git
+Git
+
+1. Git설치
+2. GitHub 회원가입
+3. 진행
+	- NewRepository
+		- Repository_name, Description 작성
+		- Add .gitignore : 무시해도되는 것의 리스트, ID, PW, DB같은 것을 업데이트할때 무시해야하는것
+		- choose.License : 
+		- create Repository > 생성 > 원격 저장소 생성된거임
+4. Repository로 이동
+	- git용어
+		- git init
+		- git add README.md ,  git add . : 전부다, or git add '특정파일'
+		- git commit -m "first commit", git commit -m "문구"
+		- git branch -M main
+		- git remote add origin https://github.com/morakcook/kita_django_project.git
+		- git push -u origin main
+		- git config --list
+		- git config --global user.name morakcook
+		- git config --global user.email koito159@gmail.com
+		- q
+	- 해당 프로젝트에 우클릭 > vscode or girbash > git --version : git설치확인
+	- git init : git생성
+	- - git config --list
+		- git config --global user.name morakcook
+		- git config --global user.email koito159@gmail.co	m
+		- q
+	- git add .
+	- git commit -m "first commit"
+	- git branch -M main
+	- git remote add origin https://github.com/morakcook/kita_django_project.git
+	- git push -u origin main > sign_in 뜨면 browser(인증) > 
