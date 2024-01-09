@@ -1,0 +1,10 @@
+body {
+    background: url('/static/single_pages/images/hriver.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#texts{
+    color: white;
+}
